@@ -234,6 +234,7 @@ a:hover {
   text-align: center;
 }
 
+/* Personalizar las barras de desplazamiento */
 ::-webkit-scrollbar {
   width: 8px;
 }
