@@ -69,23 +69,22 @@ body {
 }
 
 .language-selector select {
-  padding: 5px; 
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  background: #444; 
+  padding: 6px;
+  border: none;
+  background: #444;
   color: #f0f0f0;
   cursor: pointer;
-  font-size: 14px; 
+  font-size: 14px;
   transition: background-color 0.5s ease;
-  width: 100%; 
+  width: calc(100% - 12px);
   box-sizing: border-box;
   -webkit-appearance: none;
 }
 
 .language-selector select option {
-  background-color: #444; 
+  background-color: #444;
   color: #f0f0f0;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .language-selector select:hover {
@@ -235,7 +234,6 @@ a:hover {
   text-align: center;
 }
 
-/* Personalizar las barras de desplazamiento */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -254,16 +252,3 @@ a:hover {
   border-radius: 10px;
 }
 
-.discord-link {
-  padding: 5px; 
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  background: #444; 
-  color: #f0f0f0; 
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.5s ease;
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-}
