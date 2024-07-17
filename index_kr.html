@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="로카 그라인딩 가이드" property="og:title" />
+    <meta content="lokamc에서 더 나은 그라인딩을 위한 가이드" property="og:description" />
+    <meta content="https://lokaguide.github.io" property="og:url" />
+    <meta content="https://i.imgur.com/k71wRkb.png" property="og:image" />
+    <meta content="#000" data-react-helmet="true" name="theme-color" />
+    <title>로카 그라인딩 가이드</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/k71wRkb.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="섹션 검색...">
+</div>
+
+
+<div class="language-selector">
+    <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="gr">Ελληνικά</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Portuguese</option>
+        <option value="tr">Türkçe</option>
+        <option value="it">Italiano</option>
+        <option value="pl">Polski</option>
+        <option value="kr" selected>한국어</option>
+
+    </select>
+</div>
+
+
+<div class="container">
+    <h1><img src="https://i.imgur.com/k71wRkb.png" alt="LokaEmoji" class="emoji"> 로카 그라인딩 가이드 <img src="https://i.imgur.com/k71wRkb.png" alt="LokaEmoji" class="emoji"></h1>
+<div class="sidebar-footer">
+            <h2>이 웹사이트는 MrOrdenador가 소유하고 있습니다</h2>
+            <p>TexturePacks 디스코드: <a href="https://discord.gg/wqSJGpZVDd">https://discord.gg/wqSJGpZVDd</a></p>
+        </div>
+    <details id="sand">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Sand_JE5_BE3.png?ae2df" alt="Sand Emoji" class="emoji"> 모래</summary>
+        <div class="details-content">
+            <p>
+                모래를 모으려면 가라마 항구로 가서 북쪽으로 이동하십시오. 삽 2-3개와 셜커 상자를 가져오십시오.<br>
+                교환 비율: 셜커 상자 2-3개당 삽 1개.<br>
+                (중립 몹 버프가 없으면 다이아몬드 갑옷이 필수입니다).
+                <img src="https://i.imgur.com/CUm941S.png" alt="Garama Docks" class="image">
+            </p>
+            <p class="note">
+                주의: 이 지역에서 적대적인 몹이 나타날 수 있습니다.
+            </p>
+        </div>
+    </details>
+
+    <details id="nether-wart">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/thumb/Nether_Wart_%28item%29_JE2_BE1.png/150px-Nether_Wart_%28item%29_JE2_BE1.png?65953" alt="Nether Wart Emoji" class="emoji"> 네더 와트</summary>
+        <div class="details-content">
+            <p>
+                네더 와트는 네더의 여러 장소에서 찾을 수 있습니다. 최대 수확량을 위해 Fortune 3 도구를 사용하십시오.<br>
+                아래 좌표를 참고하십시오. 또는 네더를 탐험하여 더 이상 찾을 수 없을 때까지 수확하십시오.
+            </p>
+            <ul>
+                <li>529, 1203 (수확량: 약 2줄 (18 스택))</li>
+                <li>373, 1129 (수확량: 약 2 스택)</li>
+                <li>442, 1097 (수확량: 약 4 스택)</li>
+                <li>790, 896 (수확량: 약 9 스택)</li>
+                <li>1225, 1192 (수확량: 18 스택)</li>
+                <li>1130, 1126 (수확량: 3 스택)</li>
+                <li>1293, 1263 (수확량: 3 스택)</li>
+            </ul>
+            <p>이 작업을 마치면 약 2개의 셜커 상자를 갖게 됩니다.</p>
+        </div>
+    </details>
+
+    <details id="glowstone">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Glowstone_JE4_BE2.png?0d5b0" alt="Glowstone Emoji" class="emoji"> 글로우스톤</summary>
+        <div class="details-content">
+            <p>
+                글로우스톤을 모으려면 블록과 엘리트라를 가져오세요. 기둥을 세우고 네더 동굴 위의 글로우스톤을 부수세요.<br>
+                <strong>주의:</strong> 지하의 오래된 글로우스톤 패치는 더 이상 작동하지 않습니다!
+            </p>
+        </div>
+    </details>
+
+    <details id="infested-territories">
+        <summary class="details-summary"><img src="https://i.imgur.com/1eZKSUa.png" alt="Infested Territories" class="emoji"> 감염된 지역</summary>
+        <div class="details-content">
+            <p>
+                감염된 지역은 끊임없이 몬스터가 생성됩니다. 커스텀 전리품 테이블이 표준 몹 드랍을 대체합니다.<br>
+                드랍 항목: 화약, 가스트의 눈물, 블레이즈 가루, 글로우스톤 가루, 슬라임볼, 경험치 병 등.<br>
+                감염된 지역에는 두 가지 유형이 있습니다:
+            </p>
+            <ul>
+                <li><strong>노란색 야생</strong> - 사망 시 장비 유지, 불안정한 전리품 드랍.</li>
+                <li><strong>빨간색 야생</strong> - 일반적인 야생 규칙 적용, 강력한 몹이 더 많은 전리품 드랍.</li>
+            </ul>
+            <p>
+                감염된 지역은 2주마다 순환하며, 트루스 드롭에서 시작하여 이후 2주마다 변경됩니다. 감염된 타일을 확인하려면 월드 맵에서 노란색 또는 빨간색 타일을 확인하십시오: <a href="https://lokamc.com/map" target="_blank">LokaMC Map</a>.
+            </p>
+            <p>
+                가져올 것: 체력 포션, 힘 포션, DBR, 갑옷 수리를 위한 고대 주괴, 저장용 셜커 상자, 그리고 활이 유용할 수 있습니다.<br>
+                보호를 위해, 몬스터로부터 멀리 떨어져서 버프를 강화할 수 있도록 블록과 문을 사용하여 감염된 타일 내부에 오두막을 지으십시오.<br>
+                또는 생존을 위해 힘, 속도, DBR로 버프를 강화하십시오.
+            </p>
+        </div>
+    </details>
+
+    <details id="resource-isle">
+        <summary class="details-summary"><img src="https://i.imgur.com/mlmhuPd.png" alt="Resource Isle Emoji" class="emoji"> 자원 섬</summary>
+        <div class="details-content">
+            <p>
+                로카에서 광업은 돈과 다이아몬드를 얻는 빠른 방법입니다. 각 대륙(가라마, 아스칼론, 칼로스)에는 각각 다른 광석 분포를 가진 세 개의 자원 섬(RI)이 있습니다.<br>
+            </p>
+            <ul>
+                <li>가라마는 가장 밀집된 분포를 자랑하여 빠른 광석 채집에 이상적입니다.</li>
+                <li>아스칼론은 넓은 지역에 많은 광석이 분포되어 있습니다.</li>
+                <li>칼로스는 풍부한 광석을 가지고 있지만 얼음과 용암으로 인해 탐험이 어렵습니다.</li>
+            </ul>
+            <p>
+                <strong>자원 섬 동굴 좌표:</strong><br>
+                칼로스 RI 동굴: 3178, 5132<br>
+                가라마 RI 동굴: 3347, 1208<br>
+                아스칼론 RI 동굴: 7099, 4853<br>
+                2530, 5390 (칼로스, "재미있는 동굴"용)
+            </p>
+            <p class="note">
+                주의: 자원 섬은 PvP 활동이 활발한 지역입니다. 사망 시 아이템을 잃지 않도록 주의하십시오. 아무도 따라오지 않도록 하십시오.
+            </p>
+            <p>
+                <strong>자원 섬 키트:</strong><br>
+                도망가야 할 경우 투명화 포션을 사용하십시오(용암에서 진주를 던지고 마시는 것이 숨는 가장 좋은 방법입니다).<br>
+                1개의 셜커는 광석을 저장하기 위해 비어 있어야 하고, 다른 하나는 포션으로 가득 차야 합니다.<br>
+                엔더 상자는 포션으로 가득 차 있어야 합니다.<br>
+                곡괭이는 저장 목적으로 실크 터치가 필요합니다(안전한 마을로 돌아온 후 Fortune 3를 사용하십시오).<br>
+                엘리트라는 자원 섬에 도착하거나 떠날 때 사용됩니다. 그 대륙에서 엘리트라가 비활성화된 경우 보트를 사용해야 합니다.
+            </p>
+        </div>
+    </details>
+
+    <details id="pearls">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Ender_Pearl_JE3_BE2.png?829a7" alt="Resource Isle Emoji" class="emoji"> 엔더 진주</summary>
+        <div class="details-content">
+            <p>
+                <strong>엔더 진주 농사 키트:</strong>
+            </p>
+            <ul>
+                <li>강화 포션이 가득한 셜커 1개</li>
+                <li>속도 포션이 가득한 셜커 1개</li>
+                <li>빈 셜커 1개</li>
+                <li>루팅 3 검 (화염 인첸트 없음)</li>
+                <li>실크 터치 곡괭이 (엔더 상자용)</li>
+            </ul>
+            <img src="https://i.imgur.com/8VxTcy3.png" alt="Pearl Farming Kit" class="image">
+            <p>또한, 여기 그라인딩 방법이 있습니다: <a href="https://youtu.be/BLYD0Ee6YkU?si=WRSfrIYWJ-2JdDRI" target="_blank">Pearl Grinding Method</a></p>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/BLYD0Ee6YkU" frameborder="1" allowfullscreen></iframe>
+        </div>
+    </details>
+
+    <details id="shulkers">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Shulker_Closed.png?98fc5" alt="Resource Isle Emoji" class="emoji"> 셜커</summary>
+        <div class="details-content">
+            <p>
+                <strong>셜커 농사 키트:</strong><br>
+                중요한 것은 검에 루팅 3이 있어야 한다는 것입니다.
+            </p>
+            <img src="https://i.imgur.com/SSZg5mO.png" alt="Shulker Farming Kit" class="image">
+            <p>또한, 여기 엔드 도시 좌표가 있습니다:</p>
+            <ul>
+                <li>작은 엔드 도시: -1548, -250</li>
+                <li>큰 엔드 도시: -1545, -565</li>
+            </ul>
+        </div>
+    </details>
+
+    <details id="elytras">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Elytra_%28item%29_JE1_BE1.png?8f01d" alt="Resource Isle Emoji" class="emoji"> 엘리트라</summary>
+        <div class="details-content">
+            <p>
+                <strong>드래곤 섬으로 가는 방법:</strong><br>
+                엔드 항구로 가서 이 좌표로 이동하세요: x = -983, z = 329.<br>
+                엔드 게이트웨이로 진주를 던지십시오.<br>
+                엘리트라를 얻으려면 엔더 드래곤을 처치해야 합니다. 침대암 플랫폼의 각 측면에 크리스탈 4개를 배치하여 드래곤을 소환할 수 있습니다. 그런 다음, 기본 마인크래프트에서와 같이 엔더 드래곤과 싸우십시오 (드래곤이 착지할 때를 제외하고; 로카에서는 +33% 피해를 입기 때문에 힘을 사용하고 검으로 공격하십시오).<br>
+                드래곤을 처치하면 상자가 생성됩니다. 엔더 드래곤 알/엘리트라는 엔더 드래곤을 처치하면 얻을 수 있습니다.
+            </p>
+            <p>
+                <strong>엘리트라 농사 키트:</strong>
+            </p>
+            <img src="https://i.imgur.com/HaKUrlx.png" alt="Elytra Farming Kit" class="image">
+        </div>
+    </details>
+
+    <details id="enchanting">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Enchanted_Book.gif?c1b90&format=original" alt="Resource Isle Emoji" class="emoji"> 인첸트</summary>
+        <div class="details-content">
+            <p>
+                텍스트로 설명하기 어려우므로 여기에 비디오가 있습니다: <a href="https://youtu.be/4qjhQTGXT1U" target="_blank">인첸트 튜토리얼</a>
+            </p>
+        </div>
+    </details>
+
+    <details id="shrines">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Ghast_Tear_JE2_BE2.png?2c989" alt="Resource Isle Emoji" class="emoji"> 사당</summary>
+        <div class="details-content">
+            <p><strong>좌표:</strong></p>
+            <p>가스트:</p>
+            <ul>
+                <li>사당 1: 1037, 177, 1190</li>
+                <li>사당 2: 527, 129, 963</li>
+                <li>사당 3: 1207, 71, 1386</li>
+                <li>사당 4: 630, 67, 1230</li>
+            </ul>
+            <p>블레이즈:</p>
+            <ul>
+                <li>사당 1: 1169, 68, 1285</li>
+                <li>사당 2: 864, 908</li>
+                <li>사당 3: 351, 172, 1173</li>
+                <li>사당 4: 397, 72, 1267</li>
+            </ul>
+            <p>마그마 큐브:</p>
+            <ul>
+                <li>사당 1: 1016, 71, 1202</li>
+                <li>사당 2: 1347, 178, 1346</li>
+                <li>사당 3: 675, 153, 1194</li>
+            </ul>
+            <p>사당 전리품은 플레이어 수에 따라 증가하므로 더 많은 플레이어가 있을수록 더 많은 전리품을 얻을 수 있습니다.</p>
+            <p><strong>사당 키트:</strong> 전리품을 저장할 빈 셜커 1개</p>
+            <img src="https://i.imgur.com/e5i1xBv.png" alt="Shrines Farming Kit" class="image">
+            <p>또한, 여기 비디오가 있습니다: <a href="https://www.youtube.com/watch?v=DRb3czthG0w" target="_blank">로카에서 사당을 그라인딩하는 방법</a></p>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/DRb3czthG0w" frameborder="1" allowfullscreen></iframe>
+        </div>
+    </details>
+
+    <details id="obsidian">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Obsidian_JE3_BE2.png?0a8ae" alt="Obsidian Emoji" class="emoji"> 흑요석</summary>
+        <div class="details-content">
+            <p>
+                흑요석을 모으려면 드래곤 섬으로 가서 가장 높은 탑을 찾으십시오. 탑 위에서 아래로 광산을 내려가며 효율적으로 흑요석을 수집하십시오.<br>
+                <strong>드래곤 섬으로 가는 방법:</strong><br>
+                엔드 항구로 가서 이 좌표로 이동하십시오: x = -983, z = 329.<br>
+                엔더 진주를 사용하여 엔드 게이트웨이에 진입하십시오.
+            </p>
+        </div>
+    </details>
+
+    <details id="food">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Carrot_JE3_BE2.png?6b9f9" alt="Food Emoji" class="emoji"> 음식</summary>
+        <div class="details-content">
+            <p><strong>음식 그라인딩:</strong></p>
+            <p>음식을 그라인딩하려면 아스칼론 항구로 가서 2-4마리의 소가 스폰되는 곳으로 이동하십시오. 루팅 3 검과 적절한 갑옷을 가져와 효율적으로 농사를 지으십시오.</p>
+            <p><strong>추천 그라인딩 지역:</strong></p>
+            <ul>
+                <li><strong>아스칼론:</strong> 자작나무 숲 (항구 근처), 선셋 아일</li>
+                <li><strong>가라마:</strong> 사바나</li>
+                <li><strong>칼로스:</strong> 평원과 가문비나무 숲 (항구 근처)</li>
+            </ul>
+            <p>또한, 밀을 위해 아스칼론 숲을 방문하십시오. 감자는 가라마에서 얻을 수 있으며, 당근은 칼로스에서 찾을 수 있습니다. 또는 마을에서 감자와 당근을 재배하여 지속 가능한 식량 공급원을 확보할 수 있습니다.</p>
+        </div>
+    </details>
+
+    <details id="ruins">
+        <summary class="details-summary"><img src="https://i.imgur.com/Hb7k5yE.png" alt="Ruins Emoji" class="emoji"> 유적</summary>
+        <div class="details-content">
+            <p><strong>유적이란 무엇인가요?</strong></p>
+            <p>유적은 관리자에 의해 유적으로 변환된 오래된 붕괴된 마을입니다. 유적에서는 다이아몬드 갑옷, 도구, 양조 재료, 그리고 가장 중요한 갑옷 트림을 찾을 수 있습니다. 모든 컨테이너에는 전리품이 들어 있을 가능성이 있으므로 아무것도 남기지 않고 약탈하십시오. 또한, 유적 주변에서 전리품 주머니를 찾을 수 있으며, 여기에는 전리품이 들어 있습니다. 주머니 근처에 있으면 반짝이는 소리를 들을 수 있습니다.</p>
+
+            <ul>
+                <li><strong>아스칼론:</strong> 세라핌 - 3834 / 4756, 발리노르 - 4100 / 6500, 헬덴슈타트 - 3425 / 2525, 썬더홀드 - 5400 / 1800</li>
+                <li><strong>가라마:</strong> 앰버펠 - 5218 / 3300, 바르마스트랜드 - 3300 / 2700, 뉴 아크셈 - 1800 / 4000, 반티스 - 1200 / 2900, 카멜롯 - 2100 / 5100</li>
+                <li><strong>칼로스:</strong> 너드 네이션 - 1200 / 3000, ??? - 5700 / 4200, 칼드르스벨 - 5800 / 2400, 시걸스 - 1200 / 2338</li>
+           </ul>
+        </div>
+    </details>
+
+    <details id="money">
+        <summary class="details-summary"><img src="https://66.media.tumblr.com/b73560caa55f52cd1ef25875748d052a/tumblr_mfqeb5iNG01rfjowdo1_500.gifv" alt="Money" class="emoji"> 돈 벌기</summary>
+        <div class="details-content">
+            <p><strong>돈 버는 방법</strong></p>
+            <p>다음은 게임에서 돈을 버는 몇 가지 방법입니다:</p>
+
+            <p><strong>좋은 돈 벌기 방법</strong></p>
+            <ul>
+                <li>빨간 감염 타일 - 시간당 24-30k 샤드</li>
+                <li>RI 광업 - 약 30분에서 1시간 동안 10-16k 샤드</li>
+                <li>네더와트 농사 - 농장에 따라 시간당 10-30k 샤드</li>
+            </ul>
+
+            <p><strong>괜찮은 돈 벌기 방법 (시간당 평균 수익)</strong></p>
+            <ul>
+                <li>사당 - 시간당 8-10k 샤드</li>
+                <li>엔더 진주 농사 (드래곤 섬) - 시간당 7-12k 샤드</li>
+                <li>엘리트라 농사 - 5-10분마다 1k (시간당 7-14k 샤드)</li>
+                <li>흑요석 채굴 - 시간당 9k 샤드</li>
+                <li>나무 (가문비/다크 오크) - 시간당 8-12k 샤드</li>
+                <li>노란 감염 타일 - 시간당 10-18k 샤드</li>
+                <li>밀, 감자, 당근 - 시간당 5-7k 샤드 (뼛가루 기반 농장)</li>
+            </ul>
+
+            <p><strong>나쁜 돈 벌기 방법 (시도하지 마세요)</strong></p>
+            <ul>
+                <li>음식 농사 (소, 돼지, 양) - 시간당 5-9k 샤드 (스폰율이 낮아 음식이나 산업을 사는 것이 더 나은 선택)</li>
+                <li>글로우스톤 - 시간당 5-8k 샤드</li>
+                <li>드레드포트 농사 - 시간당 5-9k 샤드 (블레이즈 막대, 마그마 크림) 두 배 드랍일 때만 좋음</li>
+            </ul>
+
+            <p><strong>다른 돈 벌기 방법</strong></p>
+            <ul>
+                <li>위더 해골 농사 - 22분마다 위더 해골 드랍 확률 30-50%</li>
+                <li>셜커 상자 농사 - 3시간마다 리스폰 (20-40 셜커 쉘 획득 가능) (두 배 드랍)</li>
+                <li>끈적한 웹 - 하지 마세요</li>
+                <li>시장 뒤집기 - 운에 따라 시간당 5-30k 샤드</li>
+                <li>플레이어로부터 싸게 사서 시장에 높은 가격으로 재판매</li>
+                <li>다이아몬드 가격보다 낮은 세트 구매 후 재리스트 (NPC 다이아몬드 가격)</li>
+            </ul>
+
+            <p>대부분의 아이템은 빨리 팔리지 않으며, 포션 재료만 빠르게 판매됩니다.</p>
+        </div>
+    </details>
+
+    <details id="town-leveling">
+        <summary class="details-summary"><img src="https://minecraft.wiki/images/Diamond_Pickaxe_JE3_BE3.png?7409d&20200226193952" alt="Town Leveling" class="emoji"> 타운 레벨링</summary>
+        <div class="details-content">
+            <p><strong>타운 레벨링 방법</strong></p>
+            <p>안녕하세요, 기본적으로 타운을 레벨 1에서 레벨 22-25로 한두 주 내에 올리는 방법을 설명합니다 (얼마나 많은 사람들이 도움을 주는지/얼마나 많이 플레이하는지에 따라 다름).</p>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Diamond_Pickaxe_JE3_BE3.png?7409d&20200226193952" alt="Mining Emoji" class="emoji"> 광업</summary>
+                <div class="details-content">
+                    <p>자원 섬으로 가서 (주로 가라마와 칼로스) 광산을 채굴하세요. 광석은 타운 레벨을 올리는 데 가장 많은 경험치를 주므로 타운을 레벨업하는 확실한 방법입니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Paper_JE2_BE2.png?9c3be&20230611043112" alt="Logging Emoji" class="emoji"> 벌목</summary>
+                <div class="details-content">
+                    <p>이것은 당신이 속한 동맹과 당신의 타운이 위치한 곳에 따라 다릅니다.</p>
+                    <p>메가 타이가를 통제하는 경우 (그리고 타운이 칼로스에 있거나 바이옴 통제를 가진 칼로스 동맹에 있는 경우) 많은 2x2 가문비나무를 심고 더 이상 할 수 없을 때까지 벌목할 수 있습니다.</p>
+                    <p>고대 정글 (또는 정글)을 통제하는 경우, 위와 같은 방법으로 정글 나무를 벌목할 수 있습니다.</p>
+                    <p>위의 두 곳 중 하나도 아닌 경우, 타일의 꼭대기에서 벌목하거나 <strong>가라마 항구</strong>로 가서 그곳의 나무를 베는 것이 좋습니다. <strong>또는</strong> <strong>아스칼론의 버섯 섬 (2148, 7608)</strong>으로 가서 버섯 나무를 베어 경험치를 얻는 것도 좋습니다. (monkeynick에게 감사드립니다)</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Diamond_Shovel_JE3_BE3.png?fd904&format=original" alt="Excavation Emoji" class="emoji"> 발굴</summary>
+                <div class="details-content">
+                    <p>이것은 타운이 위치한 곳에 따라 다르지만, 크게 다르지 않습니다.</p>
+                    <p>당신이 아스칼론의 <strong>클레이 클리프</strong> 지역에 있는 경우 (그리고 바이옴 통제를 가지고 있는 경우), 점토를 얻어 많은 발굴 레벨을 얻을 수 있습니다. 또한, 점토를 제련하여 제작 레벨을 올릴 수 있습니다.</p>
+                    <p>클레이 클리프에 있지 않은 경우 두 가지 선택지가 있습니다. 네더에서 모든 영혼 모래를 파내어 더 많은 경험치를 얻을 수 있지만, 영혼 모래는 거의 쓸모가 없습니다. 또는 <strong>가라마 비치 (4457, 1897)</strong> 또는 <strong>가라마 사막 (2496, 2822)</strong>의 일부를 파내어 많은 모래를 얻을 수 있습니다. 이는 경험치는 조금 덜 주지만, 건축이나 양조에 더 유용합니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Egg_JE2_BE2.png?495d9" alt="Farming Emoji" class="emoji"> 농업</summary>
+                <div class="details-content">
+                    <p><strong>아스칼론 밀밭 (1796, 4500)</strong>으로 가서 모든 밀을 수확하십시오. 농업 레벨을 빠르게 올릴 수 있습니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Enchanted_Book.gif?c1b90&format=original" alt="Enchanting Emoji" class="emoji"> 인첸트</summary>
+                <div class="details-content">
+                    <p>레벨 1 인첸트 (책으로)를 계속 사용하여 <strong>인첸트 레벨 40</strong>에 도달한 후 책을 사용하여 <strong>레벨 60-70</strong>까지 인첸트하십시오. 경험치 병과 책이 남아 있는 경우 더 높은 레벨로 올리는 것은 가치가 없습니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Brewing_Stand_%28empty%29_JE10.png?58d74" alt="Alchemy Emoji" class="emoji"> 연금술</summary>
+                <div class="details-content">
+                    <p>그냥 포션을 양조하십시오. Moccs의 <a href="https://forums.lokamc.com/threads/moccs-gigabrewers.6302/" target="_blank">(Moccs 링크)</a>를 구축하고 재료가 다 떨어질 때까지 포션을 만드세요.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Smithing_Table_JE2_BE2.png?9d5a7" alt="Blacksmithing Emoji" class="emoji"> 대장장이</summary>
+                <div class="details-content">
+                    <p>다이아몬드 세트와 도구를 제작하십시오. 이를 인첸트하여 인첸트 레벨도 얻을 수 있으며, 일종의 2-in-1 레벨링 전략입니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Diamond_Sword_JE3_BE3.png?24296&format=original" alt="WorldPvP Emoji" class="emoji"> 월드 PvP</summary>
+                <div class="details-content">
+                    <p>정복 전투에 참여하여 킬을 얻거나, 상대를 죽이는 행위를 하십시오. 이 레벨을 올리는 유일한 방법은 사람을 찌르는 것입니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Oak_Planks.png?d9efa" alt="Building Emoji" class="emoji"> 건축</summary>
+                <div class="details-content">
+                    <p>타운을 건축하십시오. 블록을 배치하십시오. 어떤 블록이든 상관없습니다. 전쟁실이나 타운 도면을 건설하여 많은 제작 레벨을 얻을 수 있습니다. 또한, 나무 슬래브는 많은 제작 레벨을 줍니다.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary><img src="https://minecraft.wiki/images/Crafting_Table_JE4_BE3.png?5767f" alt="Crafting Emoji" class="emoji"> 제작</summary>
+                <div class="details-content">
+                    <p>점토 볼을 제련하십시오. 이상하게 들리겠지만 많은 타운 레벨을 줍니다. 미쳤을 정도로 많은 경험치를 줍니다.</p>
+                </div>
+            </details>
+        </div>
+    </details>
+
+    <details id="ganks">
+        <summary class="details-summary"><img src="https://i.imgur.com/75cKmrF.png" alt="ganks" class="emoji"> 갱크</summary>
+        <div class="details-content">
+            <h2>갱킹이란 무엇인가요?</h2>
+            <p>Zyre Cove/Fissure로 가서 1v1 또는 "갱크" (각 측에 1명 이상의 플레이어가 있는 싸움)에서 다른 플레이어와 싸우는 것입니다. 또한 로카에서 제가 가장 좋아하는 부분입니다.</p>
+            <p>Cove/Fissure에서 죽으면 인벤토리와 /b에 있는 모든 아이템이 손실되며, 샤드도 포함됩니다.</p>
+        </div>
+
+        <div class="details-content">
+            <h2>지도 <img src="https://minecraft.wiki/images/Invicon_Map.png?24187" alt="Maps Icon" width="20"></h2>
+            <h3>일반 Zyre</h3>
+            <ul>
+                <li>큰 지도, 회전하지 않음.</li>
+                <li>지도의 특정 부분에 부패 있음.</li>
+                <li>다이아몬드 갑옷/도구/무기는 입장 시 불안정해짐.</li>
+                <li>위치가 10분마다 변경되는 비행선에서 기다려 탈출.</li>
+                <li>인기 없음, 싸움이 거의 없음.</li>
+            </ul>
+            <h3>Zyre Cove/Fissure</h3>
+            <ul>
+                <li>작은 지도, 며칠마다 회전 (/cal)</li>
+                <li>거의 모든 물원이 부패함.</li>
+                <li>입장 시 아이템이 불안정해지지 않음.</li>
+                <li>전투 중이 아닐 때 스폰에서 /kill을 사용하여 탈출.</li>
+                <li>입장 시 아이템이 불안정해지지 않음.</li>
+                <li>인기 많음, 거의 항상 싸움 있음.</li>
+            </ul>
+        </div>
+
+        <div class="details-content">
+            <h2>키트 <img src="https://minecraft.wiki/images/thumb/Diamond_Armor_with_Diamond_Shaper_Trim.png/150px-Diamond_Armor_with_Diamond_Shaper_Trim.png?7f6f4" alt="Kit Icon" width="20"></h2>
+            <h3>평균 키트</h3>
+            <p>P4 U3 다이아몬드 갑옷</p>
+            <p>S5 다이아몬드 검</p>
+            <p>E5 ST1 다이아몬드 곡괭이</p>
+            <p>엔더 진주 16개</p>
+            <p>셜커 1-3개</p>
+            <p>음식 20-32개</p>
+            <p>고대 주괴 4개</p>
+            <p>엔더 상자 1-2개</p>
+            <p>버프 세트 3개</p>
+            <p>스플래시 HP2 포션으로 채우기</p>
+            <h3>엔더 상자</h3>
+            <p>고대 주괴</p>
+            <p>음식</p>
+            <p>엔더 진주 16개</p>
+            <p>버프 세트 2-3개</p>
+            <p>스플래시 HP2 포션으로 채우기</p>
+        </div>
+        </details>
+<details id="firestone">
+    <summary class="details-summary"><img src="https://minecraft.wiki/images/Magma_Cream_JE3_BE2.png?7a317&format=original" alt="Resource Isle Emoji" class="emoji"> 화염석</summary>
+    <div class="details-content">
+        <p>
+            <strong>화염석이란 무엇인가요?</strong>
+            화염석은 무한한 화염 저항을 제공하는 아이템입니다.
+        </p>
+        <p>
+            네더 지역은 스폰의 x-121, z-249에 위치해 있습니다. 가이드를 위해 비디오를 시청하십시오.
+        </p>
+        <ul>
+            <li><strong>팁:</strong></li>
+            <ul>
+                <li>셜커를 가져오지 마세요, 놓을 수 없습니다.</li>
+                <li>파쿠르가 어렵기 때문에 1-2 스택의 음식을 가져오세요.</li>
+                <li>진주를 가져오세요, 하지만 신전 지역에서는 작동하지 않습니다.</li>
+                <li>예상치 못한 만남에 대비해 인스턴트 포션을 핫바에 보관하세요.</li>
+                <li>화염 저항 포션을 최소 2개 가져오세요.</li>
+                <li>떠나려면 /kill을 사용하십시오 (전투 중이 아닌 경우). 또는 걸어 나가서 보트로 진주를 던지십시오.</li>
+            </ul>
+        </ul>
+        <p>CLAIM: 모든 작업을 완료하면 화염석이 SoulBound 가방에 나타납니다. 열려면 /b를 사용하고 엔더 상자를 클릭하십시오.</p>
+        여기 화염석을 얻는 전체 튜토리얼이 있습니다: <a href="https://youtu.be/mhyQqiqth74" target="_blank">화염석 튜토리얼</a>
+        <iframe width="600" height="400" src="https://www.youtube.com/embed/mhyQqiqth74" frameborder="1" allowfullscreen></iframe>
+
+    </div>
+</details>
+<details id="quartz">
+    <summary class="details-summary"><img src="https://es.minecraft.wiki/images/Bloque_de_cuarzo.png?b6e24=original" alt="Quartz Island Emoji" class="emoji"> 석영</summary>
+    <div class="details-content">
+        <p>
+            왜 석영을 얻어야 하나요?
+        </p>
+        <ul>
+            <li>건축에 사용할 수 있습니다.</li>
+            <li>돈을 벌기 위해 판매할 수 있습니다.</li>
+        </ul>
+        <p>
+            어떻게 얻나요?
+        </p>
+        <ul>
+            <li>네더에서 광산 채굴.</li>
+            <li>유적과 사당을 약탈.</li>
+        </ul>
+    </div>
+</details>
+<details id="conquest">
+    <summary class="details-summary"><img src="https://i.imgur.com/Euhamwp.png" alt="Conquest Emoji" class="emoji"> 정복</summary>
+    <div class="details-content">
+        <h2>정복이란 무엇인가요?</h2>
+        <p>정복은 두 동맹이나 타운이 영토를 위해 싸우는 복잡한 시스템입니다.</p>
+
+        <h3>전투</h3>
+        <p>이 전투들은 크기가 다양할 수 있지만, 80-100명의 사람들이 모이는 전투는 드물지 않습니다. 로카에서 가장 큰 전투는 160명 이상의 사람들이 참여했습니다.</p>
+
+        <h3>목적</h3>
+        <p>로카에서 전투에서 승리하는 가장 쉽고 일반적인 방법 중 하나는 적 팀을 전멸시키는 것입니다 (적들이 다시 워프하기 전에 모든 사람 또는 대부분의 플레이어를 죽이는 것 - 워프는 일반적으로 8분마다 발생). 그런 다음 목표를 차지하십시오. 
+        목표는 철 골렘을 죽이고 5초 이상 충전하는 것으로 구성되지만, 적들은 이를 막기 위해 모든 수단을 동원할 것입니다. 여기에 충전을 차지하는 예가 있습니다:</p>
+
+        <p><img src="https://cdn.discordapp.com/attachments/829751481057149041/829822545296752740/charges.gif?ex=6698d938&is=669787b8&hm=bbca11ff4a46b0f568e2bbbd1a913a0058c291cdbb827b2a5718f7ebee8dea89" alt="Charge Example"></p>
+
+        <h3>디스코드</h3>
+        <p>전투에서 무엇을 해야 할지 알기 위해 팀과 디스코드에 항상 참여해야 합니다. 이는 로카에서 팀 전투 시 매우 중요합니다. 팀은 적의 목표를 밀어야 할 때, 리포팅해야 할 때, 워프가 언제인지, 언제 후퇴해야 할지 등의 중요한 사항을 콜할 것입니다. 팀이 이 점에서 조정되는 것이 매우 중요합니다. 디스코드에 있는 것은 자신에게도 이익이 됩니다. 도움이 필요할 경우 빠르게 호출하면 누군가가 도움을 시도할 수 있습니다.</p>
+
+        <h3>팀 전투</h3>
+        <p>그룹과 함께 싸우십시오. 특히 새로운 플레이어로서 항상 팀과 함께 싸우는 것이 중요합니다. 1v1은 대부분의 플레이어가 죽는 방식입니다. 이렇게 큰 전투에서 1v1을 하는 것은 어리석은 행동입니다. 팀과 함께 싸우십시오.</p>
+
+        <h3>리필</h3>
+        <p>포션이 부족할 경우 다른 사람에 대해 걱정하지 마십시오. 진주를 던져 멀리 도망가서 셜커 상자에 있는 포션과 버프를 리필하십시오 (⁠inventory-management에 표시된 대로). 하지만 너무 멀리 나가서는 안 됩니다. 빨리 돌아와서 팀을 도울 수 있어야 합니다.</p>
+
+        <h3>크리스탈러</h3>
+        <p>로카에서 크리스탈 플레이어를 가능한 한 피하십시오. 보통 중앙 지역에서 보이며, 목표 근처에는 블록을 놓을 수 없습니다. 크리스탈은 로카에서 다르게 작동하므로 Y 레벨에 상관없이 근처에 있으면 피해를 입습니다. 크리스탈 플레이어를 피하십시오. (또 다른 이유로 디스코드에 참여해야 합니다 - 이러한 플레이어들은 보통 피해야 할 대상으로 호출됩니다).</p>
+
+        <h3>모듈</h3>
+        <p>모듈은 종종 방어자의 목표 사이트 (T-Gen 또는 영토 생성기)에 장착됩니다. 이 모듈은 방어자가 승리할 확률을 높이기 위한 것입니다. TNT 발사, 출혈을 유발하는 장기적인 침대암, 무작위로 느려지는 효과, 레이저 발사 등 다양합니다. 공격자로서 모든 것을 피해야 하며, 방어자로서 낮거나 적을 유인하기 위해 그 주위에 있어야 합니다. (램프에 5번 충전 후 해당 램프가 사라지고 모듈도 사라집니다).</p>
+
+        <p>여기에 튜토리얼이 있습니다: <a href="https://www.youtube.com/watch?v=jJ_ZV1b5Nko" target="_blank">정복 튜토리얼</a></p>
+        <iframe width="720" height="450" src="https://www.youtube.com/embed/jJ_ZV1b5Nko" frameborder="1" allowfullscreen></iframe>
+    </div>
+</details>
+
+
+<p id="nothing-found">아무것도 찾을 수 없습니다 :(</p>
+
+
+<script>
+    document.getElementById('searchInput').addEventListener('input', function() {
+        const filter = this.value.toLowerCase();
+        const details = document.querySelectorAll('details');
+        let found = false;
+
+        details.forEach(detail => {
+            const summaryText = detail.querySelector('summary').textContent.toLowerCase();
+            if (summaryText.includes(filter)) {
+                detail.style.display = '';
+                found = true;
+            } else {
+                detail.style.display = 'none';
+            }
+        });
+
+        if (!found) {
+            document.getElementById('nothing-found').style.display = 'block';
+        } else {
+            document.getElementById('nothing-found').style.display = 'none';
+        }
+    });
+
+document.getElementById('languageSelect').addEventListener('change', function() {
+    const selectedLanguage = this.value;
+    if (selectedLanguage === 'en') {
+        window.location.href = './index.html'; 
+    }
+    else if (selectedLanguage === 'es') {
+        window.location.href = './index_es.html'; 
+   }else if (selectedLanguage === 'gr') {
+        window.location.href = './index_gr.html'; 
+   }else if (selectedLanguage === 'fr') {
+        window.location.href = './index_fr.html'; 
+   }else if (selectedLanguage === 'de') {
+        window.location.href = './index_de.html'; 
+   }else if (selectedLanguage === 'pt') {
+        window.location.href = './index_pt.html'; 
+   }else if (selectedLanguage === 'tr') {
+        window.location.href = './index_tr.html'; 
+   }else if (selectedLanguage === 'it') {
+        window.location.href = './index_it.html'; 
+   }else if (selectedLanguage === 'pl') {
+        window.location.href = './index_pl.html'; 
+   }else if (selectedLanguage === 'kr') {
+        window.location.href = './index_kr.html'; 
+   }
+})
+</script>
+
+</body>
+</html>
